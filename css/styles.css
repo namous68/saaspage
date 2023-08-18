@@ -1,0 +1,159 @@
+.logo {
+    position: absolute;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    padding: 10px 4rem;
+}
+
+.logo img {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    
+
+}
+.logo span {
+    position: fixed;
+    display: inline-block;
+    top: 10px;
+    left: 10px;
+    color: #00c1db;
+    background-color: #fff;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
+    color: #333;
+    font-size: 16px;
+}
+
+.home {
+    background-color: #00c1db;
+    min-height: 500px;
+    height: 100vh;
+    padding: 4rem 4rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.home .welcome {
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+}
+
+.services {
+    padding: 4rem 4rem;
+  
+}
+
+.service-block {
+    width: 30%;
+    min-width: 280px;
+    margin: 1.5%;
+    box-sizing: border-box;
+    flex: 1; 
+   
+}
+
+.services > div {
+    display: flex;
+    
+    justify-content: space-between;
+    
+}
+
+
+
+
+.services .service-block .service-img {
+    background-color: #ccc;
+    height: 150px;
+    
+}
+
+h1 {
+    border-bottom: 2px dotted #fff;
+    margin: 0 0 2rem 0;
+    padding: 0 0 2rem 0;
+    font-size: 3rem;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+    color: #008da0;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: #008da0;
+}
+
+.contacts {
+    background-color: #ccc;
+    padding: 4rem 4rem;
+}
+
+.contacts form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.contacts form label {
+    margin: 1rem 0;
+}
+
+.contacts form input, .contacts form textarea {
+    border: 1px solid #008da0;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+.contacts form textarea {
+    height: 15rem;
+}
+
+
+.btn {
+    border: 1px solid #beeef4;
+    background-color: #00c1db;
+    color: #fff;
+    padding: 1rem 1rem;
+    margin-top: 15px;
+    border-radius: 0.2rem;
+    text-decoration: none;
+    width: 25%;
+    
+    
+}
+
+footer {
+    display: block;
+    padding: 1rem 4rem;
+    background-color: #004a54;
+    color: #008da0;
+    text-align: center;
+    font-size: 0.8rem;
+}
