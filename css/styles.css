@@ -135,6 +135,11 @@ h2 {
     height: 15rem;
 }
 
+.contacts form .btn {
+    display:block;
+    margin:15px auto 0 auto;
+}
+
 
 .btn {
     border: 1px solid #beeef4;
@@ -145,8 +150,7 @@ h2 {
     border-radius: 0.2rem;
     text-decoration: none;
     width: 25%;
-    
-    
+
 }
 
 footer {

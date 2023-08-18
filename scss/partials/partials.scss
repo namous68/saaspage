@@ -1,0 +1,18 @@
+$bgdColor: #00c1db;
+$contactColor: #008da0;
+
+@mixin gradient($start-color, $end-color) {
+    background: linear-gradient(to right, $start-color, $end-color);
+  }
+  
+  .home {
+    @include gradient($bgdColor, $contactColor);
+    
+  }
+
+  @function darken($color, $amount) {
+    @return darken($color, $amount);
+  }
+
+  
+$darkenedColor: darken($bgdColor, 20%);
